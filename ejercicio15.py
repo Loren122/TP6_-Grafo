@@ -139,8 +139,8 @@ for i in maravillas_arquitectonicas:
                         
                         
 for i in maravillas_naturales:
-    posicionB = grafo.search_vertice(i.nombre)
-    valueA = grafo.get_element_by_index(posicionB)
+    posicionA = grafo.search_vertice(i.nombre)
+    valueA = grafo.get_element_by_index(posicionA)
     for j in maravillas_naturales:
         posicionB = grafo.search_vertice(j.nombre)
         valueB = grafo.get_element_by_index(posicionB)
